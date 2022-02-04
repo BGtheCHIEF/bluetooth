@@ -3,6 +3,9 @@ body
   font-family: sans-serif;
   background-attachment: fixed;
   background-size: cover;
+  background-image: url(hatter.jpg);
+  background-position-x: center;
+  background-position-y: center;
 }
 
 #content
@@ -58,11 +61,67 @@ p.imgtitle
 
 table
 {
-  border: 3px solid #0A82F7;
+  border-style: double;
+  border-color: black;
+  border-width: 2px;
 }
 
-table
+table,td,th
 {
   margin-right: 20px;
   background-color: rgba(227, 225, 233, 0.3);
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px;
+}
+
+img
+{
+  display: block;
+  float: right;
+  height: 280px;
+  width: 260px;
+  padding: 2px;
+  right: 10px;
+  position: relative  ;
+}
+
+#bt
+{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+figcaption
+{
+  border-top: 2px solid black;
+}
+
+.numbers
+{
+  text-align: center;
+}
+
+.titlee
+{
+  background-color: rgba(39, 33, 33, 0.5);
+  color: white;
+}
+
+#trap
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: yellow;
+}
+
+a
+{
+  color: black;
+  text-decoration: none;
 }
